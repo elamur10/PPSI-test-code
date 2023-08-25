@@ -71,7 +71,7 @@ public class TestCase2 extends BaseTest {
 	 logger.info("Mandatory fields are entered");
 	 Thread.sleep(2000);
 	 save.SavePPI();
-	 logger.info("PPI is saved");
+	 //logger.info("PPI is saved");
 	 Thread.sleep(2000);
 	 publish.publishPPI();
 	 Thread.sleep(2000);
@@ -79,6 +79,9 @@ public class TestCase2 extends BaseTest {
 	 logger.info("PPI is published");
 	 
   }
+
+
+
 
 
 }
