@@ -76,7 +76,7 @@ public class TestCase2 extends BaseTest {
 	 publish.publishPPI();
 	 Thread.sleep(2000);
 	 publish.VerifyPPIISPublished();
-	 //logger.info("PPI is published");
+	 logger.info("PPI is published");
 	 
   }
 
