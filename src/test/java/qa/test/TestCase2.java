@@ -68,7 +68,7 @@ public class TestCase2 extends BaseTest {
 	 Thread.sleep(2000);
 	 keyparam.keyparameters();
 	 keyparam.preparation();
-	 logger.info("Mandatory fields are entered");
+	 //logger.info("Mandatory fields are entered");
 	 Thread.sleep(2000);
 	 save.SavePPI();
 	 //logger.info("PPI is saved");
